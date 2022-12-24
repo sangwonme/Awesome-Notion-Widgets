@@ -5,111 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-    <style>
-        @import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
-
-body {
-    font-family: 'KoPub Batang', serif;
-    margin : 0;
-    background-image: url("./concrete.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.content {
-    height: 100vh;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    perspective: 150rem;
-    width: 36rem; /* 9 */
-    height: 20rem; /* 5 */
-}
-
-.card__side {
-    width: 100%; 
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    transition: all 0.8s ease;
-    border-radius: 3px;
-    overflow: hidden;
-    backface-visibility: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/* Card Front --------------------------------------*/
-.photo{
-  height: 100%;
-}
-
-/* Card Back --------------------------------------*/
-.inner{
-  width: 100%;
-  height: 75%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.name{
-  margin-top: 0;
-  margin-bottom: 2%;
-  font-size: 2rem;
-}
-
-.description{
-  font-size: 0.8rem;
-  text-align: center;
-  height: 5rem;
-  margin: 0;
-  line-height: 1.2rem;
-}
-
-.contact{
-  font-size: 0.8rem;
-  text-align: center;
-  line-height: 1.2rem;
-}
-
-.line{
-  border-top: black 1px solid;
-  width: 80%;
-  height: 0;
-  margin: 0;
-}
-
-.links{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0;
-}
-
-.icon{
-  font-size: 1.2rem;
-  margin: 0 15%;
-  color:rgba(80, 77, 77, 0.4);
-}
-.icon:hover{
-  color: black;
-}
-
-@media (max-width: 600px) {
-    
-}
-    </style>
+	<link rel="stylesheet" href="style.css">
   <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
@@ -117,7 +13,7 @@ body {
 		<div class="card">
 			<!-- Front Content -->
 		  	<div class="card__side card__side--front">
-          <img class="photo" src="https://raw.githubusercontent.com/sangwonme/Awsome-Notion-Widgets/main/widgets/flip-card/thinkingTree.png" alt="logo">
+          <img class="photo" src="./thinkingTree.png" alt="logo">
 		  	</div>
         <!-- Back Content -->
 		  	<div class="card__side card__side--back">
@@ -150,6 +46,6 @@ body {
 		</div>
 	</div>
 	<script type="text/javascript" src="cardflip.js"></script> 
+	<script type="text/javascript" src="url.js"></script> 
 </body>
 </html>
-
