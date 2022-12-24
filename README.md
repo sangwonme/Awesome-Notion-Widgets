@@ -1,2 +1,2 @@
-# Awsome-Notion-Widgets
-Custom Awsome Notion Widgets for me...!!!!!
+# Awesome-Notion-Widgets
+Custom Awesome Notion Widgets for me...!!!!!
